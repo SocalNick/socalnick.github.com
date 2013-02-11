@@ -52,56 +52,143 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <!-- Subhead
+    ================================================== -->
+	<header class="jumbotron subhead" id="overview">
+	  <div class="container">
+	    <h1>Résumé for Nicholas J. Calugar</h1>
+	    <p class="lead">An accomplished Web Application Developer, with expertise in PHP, Zend Framework, and MySQL.  Proven ability to execute projects from concept to launch.  Solid experience working with less-technical stakeholders as well as leading highly technical development teams. Demonstrated success implementing complex business rules in software. Deep understanding of all things Internet, with a keen eye for emerging technologies.  Possess diverse IT experience with small businesses, fast-paced start-ups, and large enterprises, which contributes to problem resolution in various situations.  Strong leadership skills, with ability to motivate professionals and maximize levels of productivity.  Excellent communicator, with emphasis on adapting language to the intended audience.</p>
+	  </div>
+	</header>
 
-      <div class="row-fluid">
+    <div class="container">
 
-        <div class="span2">
-          <!--Sidebar content-->
+      <!-- Resume nav
+      ================================================== -->
+      <div class="row">
+
+        <div class="span3 bs-docs-sidebar">
+          <ul class="nav nav-list bs-docs-sidenav">
+            <li><a href="#qualifications"><i class="icon-chevron-right"></i> Qualification Highlights</a></li>
+            <li><a href="#xp"><i class="icon-chevron-right"></i> Professional Experience</a></li>
+            <li><a href="#education"><i class="icon-chevron-right"></i> Education</a></li>
+          </ul>
         </div>
 
-        <div class="span10">
-          <!--Body content-->
+        <div class="span9">
 
-          <!-- Main hero unit for a primary marketing message or call to action -->
-          <div class="hero-unit">
-            <h1>Résumé for Nicholas J. Calugar</h1>
-            <p>An accomplished Web Application Developer, with expertise in PHP, Zend Framework, and MySQL.  Proven ability to execute projects from concept to launch.  Solid experience working with less-technical stakeholders as well as leading highly technical development teams. Demonstrated success implementing complex business rules in software. Deep understanding of all things Internet, with a keen eye for emerging technologies.  Possess diverse IT experience with small businesses, fast-paced start-ups, and large enterprises, which contributes to problem resolution in various situations.  Strong leadership skills, with ability to motivate professionals and maximize levels of productivity.  Excellent communicator, with emphasis on adapting language to the intended audience.</p>
-            <p><a class="btn btn-primary btn-large" href="https://github.com/SocalNick">Github Profile</a></p>
-          </div>
+          <!-- Qualification Highlights
+          ================================================== -->
+          <section id="qualifications">
+            <div class="page-header">
+              <h2>Qualification Highlights</h2>
+            </div>
+            <ul>
+              <li>B.S. in Computer Science</li>
+              <li>PHP</li>
+              <li>Zend Framework</li>
+              <li>Zend Studio</li>
+              <li>JavaScript (jQuery / Dojo)</li>
+              <li>MySQL</li>
+              <li>Linux</li>
+              <li>Apache</li>
+              <li>MVC Pattern</li>
+              <li>Git</li>
+              <li>Subversion</li>
+              <li>TCP/IP Networking</li>
+            </ul>
+          </section>
 
-          <!-- Example row of columns -->
-	      <div class="row">
-	        <div class="span10">
-	          <h2>Qualification Highlights</h2>
-	           <ul>
-                 <li>B.S. in Computer Science</li>
-                 <li>PHP</li>
-                 <li>Zend Framework</li>
-                 <li>Zend Studio</li>
-                 <li>JavaScript (jQuery / Dojo)</li>
-                 <li>MySQL</li>
-                 <li>Linux</li>
-                 <li>Apache</li>
-	             <li>MVC Pattern</li>
-	             <li>Git</li>
-	             <li>Subversion</li>
-	             <li>TCP/IP Networking</li>
-	           </ul>
-	        </div>
-	      </div>
+          <!-- Professional Experience
+          ================================================== -->
+          <section id="xp">
+            <div class="page-header">
+              <h2>Professional Experience</h2>
+            </div>
+
+            <h3>IGN Entertainment</h3>
+            <h4>Senior Software Engineer - San Francisco, CA</h4>
+            <h5>October 2010 - Present</h5>
+            <ul>
+              <li>Hired as a Zend Framework / PHP expert to spearhead transition from legacy e-commerce platform to Magento Enterprise e-Commerce platform.</li>
+              <li>Successfully launched a Facebook app and German e-Commerce store for direct2drive.com based on a highly customized Magento codebase and purely Amazon AWS infrastructure.</li>
+              <li>Transitioned to Media Engineering team to work on high-traffic, front end Zend Framework application powering most of IGN Entertainment’s Internet presence.</li>
+              <li>Instituted a series of changes aimed at testability and standardization of the Zend Framework application. These changes allow unit testing and other quality assurance tools to be automatically run by a Jenkins Continuous Integration server that monitors our Git repository.</li>
+              <li>Prototyped a new version of our platform based on Zend Framework 2.0 Beta 1</li>
+            </ul>
+
+            <h3>Panasonic Avionics Corporation</h3>
+            <h4>MTS III - Software - Lake Forest, CA</h4>
+            <h5>June 2009 - October 2010</h5>
+            <ul>
+              <li>Member of the Unity CMS team tasked to consolidate numerous web applications into a single, modular application based on Zend Framework and jQuery.</li>
+              <li>Completed a module that leverages a data mart to optimize efficiency of generating reports on large data sets (commercial airline passenger usage data generated from in-flight entertainment systems).</li>
+              <li>Currently building a module that allows for the configuration of advertising campaigns to be served by new ad-server component of in-flight entertainment systems.</li>
+              <li>Spearheaded formalization of process surrounding branching and tagging of the various modules that make up the Unity CMS.</li>
+              <li>Developing loadable / offload components to standardize how data is transferred from Unity CMS to customer aircraft and back to Unity CMS.</li>
+            </ul>
+
+            <h3>ShowingSuite.com</h3>
+            <h4>Lead Web Application Developer - San Diego, CA</h4>
+            <h5>June 2006 - June 2009</h5>
+            <ul>
+              <li>Lead developer on re-architecture project for SaaS web application using Zend Framework MVC and Dojo - responsible for application design, implementation, and testing.</li>
+              <li>Extended Zend Form to allow very simple creation of new forms with customized style and behavior.</li>
+              <li>Used Zend ACL to restrict access to Models and Controller actions.</li>
+              <li>Used 2-Step View pattern for very simple view scripts.</li>
+              <li>Integration with Zend Platform ES Job Queue - designed interface that allows adding jobs "transactionally", i.e. job is not "committed" until the associated model has been successfully committed to DB. Also wrote Job Queue script that allows simple integration with the rest of our Zend Framework application.</li>
+              <li>Integration with Zuora subscription billing platform (SOAP API).</li>
+              <li>Experience writing and consuming Web Services (SOAP, REST, and various ad-hoc services).</li>
+              <li>Integration with Doctrine PHP for database migration scripts.</li>
+              <li>Extensive work with PHP CLI scripts to automate release tasks, model class creation, and data migration from various platforms.</li>
+              <li>Extensive experience with Subversion.</li>
+              <li>Wrote specifications for an Adobe AIR application.</li>
+            </ul>
+
+            <h3>Central IT</h3>
+            <h4>Independent IT Consultant - San Diego, CA</h4>
+            <h5>March 2004 - June 2006</h5>
+            <p>As an independent IT Consultant, I worked in a very diverse range of environments. My clients included lawyers, property owners, nightclub owners, retail stores, start-up companies, restaurants, residential customers, and more. Services performed include, but are not limited to: Windows XP (software / hardware installation and troubleshooting, virus / spyware removal, backup procedures, and preventative maintenance). Windows Server Administration (DNS, DHCP, File Server, Active Directory, IIS, Exchange, SQL Server, RAID). TCP/IP Networking (broadband configuration, router configuration, switches, VPN, Cat-5e/6 cabling, wireless configuration). Retail / Restaurant (Aloha Table Service, Microsoft RMS). Web Development (PHP, MySQL, Flash). Linux Server Administration (Apache, Sendmail / Qmail, Majordomo, Mailman, Bind DNS, Webalizer).</p>
+
+            <h3>Previous Work History</h3>
+            <ul>
+              <li>IT Consultant, InSynergy Consulting Group, 10/2003 - 1/2004</li>
+              <li>Administrative Assistant, Burni Enterprises, 3/2003 - 10/2003</li>
+              <li>Computer Science Teaching Assistant, Washington University in St. Louis, 8/1999 - 5/2002</li>
+            </ul>
+
+          </section>
+
+          <!-- Education
+          ================================================== -->
+          <section id="education">
+            <div class="page-header">
+              <h2>Education</h2>
+            </div>
+            <h3>Washington University in St. Louis</h3>
+            <ul>
+              <li>Bachelor of Science in Computer Science - 3.36 GPA</li>
+              <li>Dean’s Honorary Scholarship: 1998-2002</li>
+              <li>Dean’s list: Fall 1998; Fall 2000; Spring 2001</li>
+              <li>Sigma Chi Fraternity</li>
+              <li>Thurtene Junior Honorary</li>
+            </ul>
+
+          </section>
 
         </div>
 
       </div>
 
-      <hr>
-
-      <footer>
-      	<p>&copy; Nicholas Calugar forever and ever...</p>
-      </footer>
-
     </div> <!-- /container -->
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; Nicholas Calugar forever and ever...</p>
+      </div>
+    </footer>
 
     <!-- Le javascript
     ================================================== -->
@@ -122,4 +209,3 @@
 
   </body>
 </html>
-
